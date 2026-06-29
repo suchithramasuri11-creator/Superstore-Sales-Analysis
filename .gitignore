@@ -7,9 +7,35 @@ env.bak/
 venv.bak/
 sales_env/
 
-# Python cache
+# Byte-compiled / optimized files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Jupyter
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs / cache
+*.log
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environment secrets
+.env
